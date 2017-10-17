@@ -113,6 +113,79 @@ table {
   height: 153px;
   width: 100%; }
 
+.content-rec {
+  background-color: #ffc400;
+  width: 100%;
+  height: 523px; }
+
+.inside-content {
+  padding-left: 27px;
+  padding-top: 55px;
+  padding-right: 33px; }
+
+.tech-lancaster-started {
+  font-family: "Droid Serif", serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.56;
+  letter-spacing: 0.9px;
+  color: #4e1c07;
+  text-align: left;
+  padding-bottom: 30px; }
+
+.we-strive {
+  font-family: 'Droid Serif', serif;
+  font-size: 15px;
+  line-height: 1.6;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c; }
+
+.figure-1 {
+  height: 2px;
+  width: 100%;
+  background-color: #ee3e28; }
+
+.upcoming-1 {
+  background-color: #ffc400; }
+
+.upcoming-1 h5 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #eb503c;
+  padding-left: 26px;
+  padding-right: 127px;
+  padding-top: 30px;
+  padding-bottom: 20px; }
+
+.upcoming-1 h3 {
+  font-family: 'Droid', serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.52;
+  letter-spacing: 1px;
+  color: #4c1a14;
+  padding-left: 26px;
+  padding-bottom: 5px; }
+
+.upcoming-1 h4 {
+  font-family: 'Lato',sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.78;
+  letter-spacing: 0.9px;
+  color: #021d2c;
+  padding-left: 26px; }
+
+.upcoming-1 p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.8px; }
+
 body {
   width: 100%;
   min-width: 320px; }
