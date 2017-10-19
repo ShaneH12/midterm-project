@@ -348,7 +348,8 @@ footer {
 .core {
   padding-left: 27px;
   padding-top: 55px;
-  padding-right: 33px; }
+  padding-right: 33px;
+  padding-bottom: 30px; }
 
 .core h2 {
   font-family: 'Droid', serif;
@@ -386,6 +387,10 @@ footer {
   text-align: left;
   color: #021d2c;
   padding-left: 26px; }
+
+.tan {
+  background-color: tan;
+  padding-bottom: 30px; }
 
 body {
   width: 100%;
