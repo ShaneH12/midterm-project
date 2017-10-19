@@ -116,7 +116,7 @@ table {
 .content-rec {
   background-color: #ffc400;
   width: 100%;
-  height: 523px; }
+  padding-bottom: 30px; }
 
 .inside-content {
   padding-left: 27px;
@@ -275,8 +275,8 @@ footer {
 
 .want-to {
   width: 100%;
-  height: 390px;
-  background-color: #a13729; }
+  background-color: #a13729;
+  padding-bottom: 30px; }
 
 .want-to h3 {
   font-family: 'Droid', serif;
@@ -306,6 +306,83 @@ footer {
   padding-left: 31px;
   text-decoration: none;
   color: #efe9d8; }
+
+.description-meetups {
+  width: 100%;
+  background-color: #ffc400;
+  padding-bottom: 30px; }
+
+.link-2 {
+  display: inline-block;
+  background-color: #eb503c;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  margin: 15px;
+  width: 219px; }
+
+.link-2 a {
+  color: #efe9d8;
+  font-family: 'Droid', serif;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  text-decoration: none; }
+
+.upcoming-1 ul li {
+  padding-left: 26px;
+  padding-bottom: 5px; }
+
+.upcoming-1 a {
+  text-decoration: none;
+  color: #4c1a14;
+  font-family: 'Droid', serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.71;
+  letter-spacing: 1px; }
+
+.core {
+  padding-left: 27px;
+  padding-top: 55px;
+  padding-right: 33px; }
+
+.core h2 {
+  font-family: 'Droid', serif;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.52;
+  letter-spacing: 1px;
+  color: #4c1a14;
+  padding-left: 26px;
+  padding-bottom: 5px; }
+
+.core h3 {
+  font-family: 'Droid', serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.52;
+  letter-spacing: 1px;
+  color: #4c1a14;
+  padding-left: 26px;
+  padding-bottom: 5px; }
+
+.core p {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  line-height: 2.0;
+  color: #021d2c;
+  padding-left: 26px; }
+
+.core ol li {
+  font-family: 'Droid', serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.8px;
+  text-align: left;
+  color: #021d2c;
+  padding-left: 26px; }
 
 body {
   width: 100%;
