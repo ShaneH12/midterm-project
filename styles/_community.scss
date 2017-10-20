@@ -88,6 +88,10 @@
   padding-left: 26px;
 }
 
+.core aside {
+  display: none;
+}
+
 .tan {
   background-color: tan;
   padding-bottom: 30px;
@@ -148,6 +152,14 @@
   .upcoming-1 ul li {
     padding-left: 26px;
     padding-bottom: 5px;
+    text-decoration: none;
+    color: #4c1a14;
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px;
+
   }
 
   .upcoming-1 a {
@@ -161,12 +173,15 @@
 
   }
 
+
   .core {
-    padding-left: 27px;
+    padding-left: 100px;
     padding-top: 55px;
-    padding-right: 33px;
+    padding-right: 100px;
     padding-bottom: 30px;
   }
+
+
 
   .core h2 {
     font-family: 'Droid', serif;
@@ -197,6 +212,7 @@
     line-height: 2.0;
     color: #021d2c;
     padding-left: 26px;
+    padding-right: 500px;
   }
 
   .core ol li {
@@ -207,6 +223,13 @@
     text-align: left;
     color: #021d2c;
     padding-left: 26px;
+  }
+
+  .core-container {
+    display: inline-flex;
+    width: 100%;
+    background-color: white;
+
   }
 
   .tan {

@@ -1,51 +1,51 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
 @media only screen and (max-width: 767px) {
+  /* http://meyerweb.com/eric/tools/css/reset/
+     v2.0 | 20110126
+     License: none (public domain)
+  */
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline; }
+
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block; }
+
+  body {
+    line-height: 1; }
+
+  ol, ul {
+    list-style: none; }
+
+  blockquote, q {
+    quotes: none; }
+
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none; }
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0; } }
+@media only screen and (max-width: 767px) and (max-width: 767px) {
   .top-header {
     background-color: #ffab00;
     height: 58px; }
@@ -95,7 +95,7 @@ table {
     background-color: #f1f1f1; }
   .burger .dropdown:hover .dropdown-content {
     display: block; } }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) and (min-width: 768px) {
   .top-header {
     background-color: #ffab00;
     height: 100px;
@@ -126,7 +126,7 @@ table {
     font-size: 16px;
     letter-spacing: 0.8px;
     padding: 20px; } }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (max-width: 767px) {
   .topimg {
     background-image: url(images/top-img.jpg);
     height: 270px; }
@@ -144,7 +144,7 @@ table {
     padding-bottom: 90px;
     height: 153px;
     width: 100%; } }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) and (min-width: 768px) {
   .topimg {
     background-image: url(images/top-img.jpg);
     height: 270px; }
@@ -162,7 +162,7 @@ table {
     padding-bottom: 90px;
     height: 153px;
     width: 100%; } }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (max-width: 767px) {
   .content-rec {
     background-color: #ffc400;
     width: 100%;
@@ -251,7 +251,7 @@ table {
 
   span {
     padding-left: 30px; } }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) and (min-width: 768px) {
   .content-rec-2 {
     display: inline-flex;
     width: 90%;
@@ -343,7 +343,7 @@ table {
 
   span {
     padding-left: 30px; } }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (max-width: 767px) {
   footer {
     width: 100%;
     height: 72px;
@@ -353,7 +353,7 @@ table {
     letter-spacing: 0.8px;
     color: #6f8998;
     padding-top: 34px; } }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) and (min-width: 768px) {
   footer {
     width: 100%;
     height: 72px;
@@ -366,7 +366,7 @@ table {
     footer span {
       display: inline-block;
       padding-left: 100px; } }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (max-width: 767px) {
   .upcoming-2 {
     background-color: white; }
 
@@ -464,7 +464,118 @@ table {
     padding-left: 31px;
     text-decoration: none;
     color: #efe9d8; } }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) and (min-width: 768px) {
+  .upcoming-2 {
+    background-color: white;
+    height: 300px;
+    width: 33%; }
+
+  .schedule {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start; }
+
+  .upcoming-2 h2 {
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    color: #4c1a14;
+    padding-left: 26px;
+    padding-bottom: 5px; }
+
+  .upcoming-2 h3 {
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.78;
+    letter-spacing: 0.9px;
+    color: #021d2c;
+    padding-left: 26px; }
+
+  .upcoming-2 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 2.0;
+    color: #021d2c;
+    padding-left: 26px; }
+
+  .involved-want {
+    display: inline-flex; }
+
+  .involved {
+    width: 40%;
+    height: 278px;
+    background-color: #eb503c; }
+
+  .involved h3 {
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    padding-left: 31px;
+    color: #efe9d8;
+    padding-top: 49px; }
+
+  .involved p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    color: #efe9d8;
+    padding-left: 31px;
+    padding-top: 10px;
+    padding-bottom: 20px; }
+
+  .involved a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: 0.8px;
+    padding-left: 31px;
+    text-decoration: none;
+    color: #efe9d8; }
+
+  .want-to {
+    width: 60%;
+    background-color: #a13729;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    padding-right: 30px; }
+
+  .want-to h3 {
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    padding-left: 31px;
+    color: #efe9d8;
+    padding-top: 49px; }
+
+  .want-to p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    color: #efe9d8;
+    padding-left: 31px;
+    padding-top: 10px;
+    padding-bottom: 20px; }
+
+  .want-to a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: 0.8px;
+    padding-left: 31px;
+    text-decoration: none;
+    color: #efe9d8; } }
+@media only screen and (max-width: 767px) and (max-width: 767px) {
   .description-meetups {
     width: 100%;
     background-color: #ffc400;
@@ -543,10 +654,13 @@ table {
     color: #021d2c;
     padding-left: 26px; }
 
+  .core aside {
+    display: none; }
+
   .tan {
     background-color: tan;
     padding-bottom: 30px; } }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 767px) and (min-width: 768px) {
   .content-rec-2 {
     display: inline-flex;
     width: 90%;
@@ -589,7 +703,14 @@ table {
 
   .upcoming-1 ul li {
     padding-left: 26px;
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #4c1a14;
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px; }
 
   .upcoming-1 a {
     text-decoration: none;
@@ -601,9 +722,9 @@ table {
     letter-spacing: 1px; }
 
   .core {
-    padding-left: 27px;
+    padding-left: 100px;
     padding-top: 55px;
-    padding-right: 33px;
+    padding-right: 100px;
     padding-bottom: 30px; }
 
   .core h2 {
@@ -632,7 +753,8 @@ table {
     letter-spacing: 0.8px;
     line-height: 2.0;
     color: #021d2c;
-    padding-left: 26px; }
+    padding-left: 26px;
+    padding-right: 500px; }
 
   .core ol li {
     font-family: 'Droid', serif;
@@ -643,13 +765,18 @@ table {
     color: #021d2c;
     padding-left: 26px; }
 
+  .core-container {
+    display: inline-flex;
+    width: 100%;
+    background-color: white; }
+
   .tan {
     background-color: tan;
     padding-bottom: 30px; } }
-body {
-  width: 100%;
-  min-width: 320px; }
-
+@media only screen and (max-width: 767px) {
+  body {
+    width: 100%;
+    min-width: 320px; } }
 @media only screen and (min-width: 768px) {
   /* http://meyerweb.com/eric/tools/css/reset/
      v2.0 | 20110126
@@ -1116,6 +1243,117 @@ body {
     padding-left: 31px;
     text-decoration: none;
     color: #efe9d8; } }
+@media only screen and (min-width: 768px) and (min-width: 768px) {
+  .upcoming-2 {
+    background-color: white;
+    height: 300px;
+    width: 33%; }
+
+  .schedule {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start; }
+
+  .upcoming-2 h2 {
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    color: #4c1a14;
+    padding-left: 26px;
+    padding-bottom: 5px; }
+
+  .upcoming-2 h3 {
+    font-family: 'Lato',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.78;
+    letter-spacing: 0.9px;
+    color: #021d2c;
+    padding-left: 26px; }
+
+  .upcoming-2 p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 2.0;
+    color: #021d2c;
+    padding-left: 26px; }
+
+  .involved-want {
+    display: inline-flex; }
+
+  .involved {
+    width: 40%;
+    height: 278px;
+    background-color: #eb503c; }
+
+  .involved h3 {
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    padding-left: 31px;
+    color: #efe9d8;
+    padding-top: 49px; }
+
+  .involved p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    color: #efe9d8;
+    padding-left: 31px;
+    padding-top: 10px;
+    padding-bottom: 20px; }
+
+  .involved a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: 0.8px;
+    padding-left: 31px;
+    text-decoration: none;
+    color: #efe9d8; }
+
+  .want-to {
+    width: 60%;
+    background-color: #a13729;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    padding-right: 30px; }
+
+  .want-to h3 {
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    padding-left: 31px;
+    color: #efe9d8;
+    padding-top: 49px; }
+
+  .want-to p {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+    color: #efe9d8;
+    padding-left: 31px;
+    padding-top: 10px;
+    padding-bottom: 20px; }
+
+  .want-to a {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: 0.8px;
+    padding-left: 31px;
+    text-decoration: none;
+    color: #efe9d8; } }
 @media only screen and (min-width: 768px) and (max-width: 767px) {
   .description-meetups {
     width: 100%;
@@ -1195,6 +1433,9 @@ body {
     color: #021d2c;
     padding-left: 26px; }
 
+  .core aside {
+    display: none; }
+
   .tan {
     background-color: tan;
     padding-bottom: 30px; } }
@@ -1241,7 +1482,14 @@ body {
 
   .upcoming-1 ul li {
     padding-left: 26px;
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #4c1a14;
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px; }
 
   .upcoming-1 a {
     text-decoration: none;
@@ -1253,9 +1501,9 @@ body {
     letter-spacing: 1px; }
 
   .core {
-    padding-left: 27px;
+    padding-left: 100px;
     padding-top: 55px;
-    padding-right: 33px;
+    padding-right: 100px;
     padding-bottom: 30px; }
 
   .core h2 {
@@ -1284,7 +1532,8 @@ body {
     letter-spacing: 0.8px;
     line-height: 2.0;
     color: #021d2c;
-    padding-left: 26px; }
+    padding-left: 26px;
+    padding-right: 500px; }
 
   .core ol li {
     font-family: 'Droid', serif;
@@ -1294,6 +1543,11 @@ body {
     text-align: left;
     color: #021d2c;
     padding-left: 26px; }
+
+  .core-container {
+    display: inline-flex;
+    width: 100%;
+    background-color: white; }
 
   .tan {
     background-color: tan;
