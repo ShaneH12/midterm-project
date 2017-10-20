@@ -1,3 +1,5 @@
+@media only screen and (max-width: 767px) {
+
 .description-meetups {
   width: 100%;
   background-color: #ffc400;
@@ -89,4 +91,127 @@
 .tan {
   background-color: tan;
   padding-bottom: 30px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+
+  .content-rec-2 {
+    display: inline-flex;
+    width: 90%;
+    padding-left: 60px;
+    position: relative;
+    top: -60px;
+
+    .figure-1 {
+      width: 2px;
+      background-color: #ee3e28;
+    }
+
+  }
+
+  .description-meetups {
+    width: 100%;
+    background-color: #ffc400;
+    padding-bottom: 30px;
+  }
+
+  .we-strive {
+    font-family: 'Droid Serif', serif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+  }
+
+  .link-2 {
+    background-color: #eb503c;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    margin: 15px;
+    width: 219px;
+    display: inline-block;
+  }
+
+  .link-2 a {
+    color: #efe9d8;
+    font-family: 'Droid', serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+  }
+
+
+  .upcoming-1 ul li {
+    padding-left: 26px;
+    padding-bottom: 5px;
+  }
+
+  .upcoming-1 a {
+    text-decoration: none;
+    color: #4c1a14;
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.71;
+    letter-spacing: 1px;
+
+  }
+
+  .core {
+    padding-left: 27px;
+    padding-top: 55px;
+    padding-right: 33px;
+    padding-bottom: 30px;
+  }
+
+  .core h2 {
+    font-family: 'Droid', serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    color: #4c1a14;
+    padding-left: 26px;
+    padding-bottom: 5px;
+  }
+
+  .core h3 {
+    font-family: 'Droid', serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.52;
+    letter-spacing: 1px;
+    color: #4c1a14;
+    padding-left: 26px;
+    padding-bottom: 5px;
+  }
+
+  .core p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    line-height: 2.0;
+    color: #021d2c;
+    padding-left: 26px;
+  }
+
+  .core ol li {
+    font-family: 'Droid', serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: #021d2c;
+    padding-left: 26px;
+  }
+
+  .tan {
+    background-color: tan;
+    padding-bottom: 30px;
+  }
+
 }

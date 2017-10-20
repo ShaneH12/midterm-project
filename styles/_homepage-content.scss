@@ -1,3 +1,5 @@
+@media only screen and (max-width: 767px){
+
 .content-rec {
   background-color: #ffc400;
   width: 100%;
@@ -98,18 +100,30 @@
 span {
   padding-left: 30px;
 }
-
+}
 
 @media only screen and (min-width: 768px) {
   .content-rec-2 {
-    display: inline-block;
+    display: inline-flex;
+    width: 90%;
+    padding-left: 60px;
+    position: relative;
+    top: -60px;
+
+    .figure-1 {
+      width: 2px;
+      background-color: #ee3e28;
+    }
+
   }
 
 
   .content-rec {
     background-color: #ffc400;
     padding-bottom: 30px;
-    text-overflow: ellipsis;
+    padding-left: 30px;
+    width: 60%;
+
   }
 
 
@@ -137,8 +151,9 @@ span {
 
   .upcoming-1 {
     background-color: #ffc400;
-    float: right;
-    margin-top: -241px;
+    width: 40%;
+    padding-left: 50px;
+
   }
 
   .upcoming-1 h5 {
