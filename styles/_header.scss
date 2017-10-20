@@ -1,3 +1,5 @@
+@media only screen and (max-width: 767px) {
+
 .top-header {
   background-color: #ffab00;
   height: 58px;
@@ -66,13 +68,14 @@ li.dropdown {
     display: block;
 }
 }
-
+}
 
 @media only screen and (min-width: 768px) {
 
   .top-header {
-    background-color: red;
-    height: 58px;
+    background-color: #ffab00;
+    height: 100px;
+    padding-bottom: 20px;
   }
 
   .text-header {
@@ -84,6 +87,27 @@ li.dropdown {
     text-align: left;
     color: #064159;
     padding: 24px 1px 94px 21px;
+  }
+
+  .dropbtn {
+    display: none;
+  }
+
+  .burger {
+    text-align: right;
+    margin-top: -65px;
+    font-family: 'Lato', sans-serif;
+
+  }
+
+  .dropdown a {
+    text-decoration: none;
+    color: #72261d;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    padding: 20px;
+
   }
 
 
